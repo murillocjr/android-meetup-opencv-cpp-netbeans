@@ -13,8 +13,6 @@
 
 #include "AreaCalculator.h"
 
-
-
 String AreaCalculator::processMat(Mat frame)
 {
     
