@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
     Mat colorFrame;
     AreaCalculator areaCalculator;
 
-    colorFrame = imread("/home/oamakas/projects/sampleCode/android-ndk/Camera2Basic/IMG_20180422_181646.jpg", CV_LOAD_IMAGE_ANYCOLOR);
+    colorFrame = imread("/home/oamakas/projects/sampleCode/android-ndk/Camera2Basic/1b3r.jpg", CV_LOAD_IMAGE_ANYCOLOR);
    
     cout << areaCalculator.processMat(colorFrame);
 
