@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/_ext/138dad10/AreaCalculator.o \
+	${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o \
 	${OBJECTDIR}/main.o
 
 
@@ -67,6 +68,11 @@ ${OBJECTDIR}/_ext/138dad10/AreaCalculator.o: /home/oamakas/projects/cpp_projects
 	${MKDIR} -p ${OBJECTDIR}/_ext/138dad10
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -I/home/oamakas/projects/cpp_projects/ocv/opencv/include/opencv2 `pkg-config --cflags opencv`   -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/138dad10/AreaCalculator.o /home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp
+
+${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o: /home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/138dad10
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/oamakas/projects/cpp_projects/ocv/opencv/include/opencv2 `pkg-config --cflags opencv`   -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o /home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}

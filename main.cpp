@@ -14,7 +14,8 @@
 #include <cstdlib>
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include "AreaCalculator.h"
+#include "ContourEvaluator.h"
+
 
 /*
  * 
@@ -24,10 +25,10 @@ int main(int argc, char** argv) {
     cout << "Hi"<<endl;
     
     Mat colorFrame;
-    AreaCalculator areaCalculator;
+    ContourEvaluator contourEvaluator;
 
-    colorFrame = imread("/home/oamakas/projects/cpp_projects/area_by_color/1b3r.jpg", CV_LOAD_IMAGE_ANYCOLOR);
-    cout << areaCalculator.processMat(colorFrame);
+    colorFrame = imread("/home/oamakas/projects/cpp_projects/area_by_color/coins_black.jpg", CV_LOAD_IMAGE_ANYCOLOR);
+    cout << contourEvaluator.processMat(colorFrame);
 
     return 0;
     

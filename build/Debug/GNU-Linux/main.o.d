@@ -1,3 +1,3 @@
-build/Debug/GNU-Linux/main.o: main.cpp AreaCalculator.h
+build/Debug/GNU-Linux/main.o: main.cpp ContourEvaluator.h
 
-AreaCalculator.h:
+ContourEvaluator.h:
