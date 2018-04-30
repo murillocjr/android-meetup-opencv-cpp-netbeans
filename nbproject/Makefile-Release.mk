@@ -35,8 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/138dad10/AreaCalculator.o \
-	${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o \
+	${OBJECTDIR}/_ext/138dad10/SobelEdges.o \
 	${OBJECTDIR}/main.o
 
 
@@ -64,15 +63,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/area_by_color: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/area_by_color ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/138dad10/AreaCalculator.o: /home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp
+${OBJECTDIR}/_ext/138dad10/SobelEdges.o: /home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/138dad10
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/138dad10/AreaCalculator.o /home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp
-
-${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o: /home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp
-	${MKDIR} -p ${OBJECTDIR}/_ext/138dad10
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/138dad10/ContourEvaluator.o /home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/138dad10/SobelEdges.o /home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}

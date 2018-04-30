@@ -5,14 +5,14 @@
  */
 
 /* 
- * File:   AreaCalculator.h
+ * File:   ContourEvaluator.h
  * Author: netmaster
  *
- * Created on April 22, 2018, 5:18 PM
+ * Created on April 28, 2018, 9:37 PM
  */
 
-#ifndef AREACALCULATOR_H
-#define AREACALCULATOR_H
+#ifndef SOBELEDGES_H
+#define SOBELEDGES_H
 
 #include <iostream>
 #include <fstream>
@@ -23,11 +23,11 @@ using namespace std;
 using namespace cv;
 
 
-class AreaCalculator {
+class SobelEdges {
 public:
-    String processMat(Mat frame);
+    void processMat(Mat frame);
 
 };
 
-#endif /* AREACALCULATOR_H */
+#endif /* SOBELEDGES_H */
 

@@ -4,8 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.h</itemPath>
-      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.h</itemPath>
+      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -14,8 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp</itemPath>
-      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp</itemPath>
+      <itemPath>/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -53,22 +51,12 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp"
+      <item path="/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.h"
+      <item path="/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -96,22 +84,12 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.cpp"
+      <item path="/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/AreaCalculator.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="/home/oamakas/projects/cpp_projects/area_by_color/ContourEvaluator.h"
+      <item path="/home/oamakas/projects/cpp_projects/area_by_color/SobelEdges.h"
             ex="false"
             tool="3"
             flavor2="0">

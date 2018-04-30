@@ -1,3 +1,3 @@
-build/Debug/GNU-Linux/main.o: main.cpp ContourEvaluator.h
+build/Debug/GNU-Linux/main.o: main.cpp SobelEdges.h
 
-ContourEvaluator.h:
+SobelEdges.h:
